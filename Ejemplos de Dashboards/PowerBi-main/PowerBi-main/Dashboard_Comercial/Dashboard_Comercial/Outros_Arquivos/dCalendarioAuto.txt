@@ -1,0 +1,17 @@
+dCalendario = 
+VAR MinAno = YEAR( MIN( YourTable[YourColumn]))
+VAR MaxAno = YEAR( MAX( YourTable[YourColumn]
+RETURN
+ADDCOLUMNS(
+    FILTER(
+        CALENDARAUTO(),
+        AND (
+            YEAR( [Date]) >= MinAno,    
+            YEAR( [Date]) <= MaxAno
+             )
+           ),
+    "Ano Calendario",YEAR ( [Date] ),
+    "Nome do Mês", FORMAT ( [Date], "mmmm" ),
+    "Número do Mês", MONTH ( [Date] ),
+    "Dia da Semana", FORMAT ( [Date], "dddd" ),
+    "Nro Dia da Semana", WEEKDAY( [Date] )

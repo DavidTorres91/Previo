@@ -1,0 +1,25 @@
+Porcentaje Avance.
+#############################################
+0. Pendiente Inicio			0%
+1. Diseño Torre				5%
+2. Fabricación Estructura		10%
+3. Trasiego Materiales			20%
+4. Cimentación				30%
+5. Armado Torre				50%
+6. Adecuaciones Civiles & EE		70%
+7. Solución Provisional Def de EE	90%
+8. Entrega Prioritarias			100%
+
+Detalle estado.
+#############################################
+
+En blanco (Busqueda.)  	=> B  =>   0=  	0%	
+En negociacion.		=> N  =>   0=	0%		
+Instalacion de equipos.	=> I  =>   8=	100%
+Negociacion.		=> N  =>   0=	0%
+Notificado InSrv.	=>InSrv=>  8=	100%
+Oc ejecucion Claro.	=> OC =>   0=	0%
+Problemas de seguridad	=>    =>   9=	0%
+Procesos OnAir.		=> I  =>   9=	100%
+Opciones caidas		=>    =>   9=	0%	
+#############################################		
